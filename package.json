@@ -1,0 +1,33 @@
+{
+  "name": "Dev-log",
+  "version": "1.0.0",
+  "description": "This is a production grade logger,It can be used for logging errors,warnings,verboses etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [
+    "dev-log",
+    "error logger",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "bunyan",
+    "pino",
+    "loglevel",
+    "tools",
+    "json",
+    "stream"
+  ],
+  "author": "Dumbo-programmer",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/Dumbo-programmer/Dev-log/issues"
+  },
+  "homepage": "https://github.com/Dumbo-programmer/Dev-log/",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
