@@ -15,7 +15,7 @@ colors.setTheme({
     warn: 'yellow',
     debug: 'blue',
     error: 'red',
-    blue: 'blue'
+    cyan: 'cyan'
   });
 
 //setting time in (HH:MM:SS)
@@ -53,8 +53,8 @@ const prompt=(arg)=>{
     log(colors.bold.grey('[prompt]:')+colors.bold.gray(` ${hours}:${minute}:${second} `)+`${arg}`.prompt);
 }
 
-const blue=(arg)=>{
-    log(colors.bold.grey('[Blue]:')+colors.bold.gray(` ${hours}:${minute}:${second} `)+`${arg}`.prompt);
+const cyan=(arg)=>{
+    log(colors.bold.grey('[Cyan]:')+colors.bold.gray(` ${hours}:${minute}:${second} `)+`${arg}`.cyan);
 }
 
 module.exports={info,warn,error,debug,silly,verbose,prompt,setColor}
